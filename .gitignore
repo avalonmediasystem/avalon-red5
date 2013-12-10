@@ -1,1 +1,3 @@
 log/*
+webapps/avalon/streams/**/**/*
+red5wrapper.log
