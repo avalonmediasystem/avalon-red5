@@ -24,5 +24,6 @@
 
 	<bean id="streamFilenameGenerator" class="org.avalonmediasystem.red5.AvalonFilenameGenerator" init-method="initAuthHandler" >
 		<property name="avalonUrl" value="${avalon.serverUrl:http://localhost:3000/}" />
+		<property name="streamBase" value="${avalon.streamBase:streams}" />
 	</bean>
 </beans>
